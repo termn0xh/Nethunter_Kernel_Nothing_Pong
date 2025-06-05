@@ -4,10 +4,10 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=Meteoric Kernel by HELLBOY017
+kernel.string="Kali Nethunter Kernel by termnh for Pong"
 do.devicecheck=1
 do.modules=0
-do.systemless=1
+do.systemless=0
 do.cleanup=1
 do.cleanuponabort=0
 device.name1=Pong

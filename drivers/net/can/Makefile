@@ -3,6 +3,9 @@
 #  Makefile for the Linux Controller Area Network drivers.
 #
 
+obj-$(CONFIG_CAN_CAN327)	+= can327.o
+obj-y				+= can-isotp/
+obj-y				+= usb-can-2-module/
 obj-$(CONFIG_CAN_VCAN)		+= vcan.o
 obj-$(CONFIG_CAN_VXCAN)		+= vxcan.o
 obj-$(CONFIG_CAN_SLCAN)		+= slcan.o

@@ -9,7 +9,7 @@
 KERNEL_DIR=$(pwd)
 
 # Kernel defconfig
-DEFCONFIG=vendor/meteoric_defconfig
+DEFCONFIG=nethunter_defconfig
 
 # AnyKernel3 directory
 ANYKERNEL3_DIR=$KERNEL_DIR/anykernel
@@ -36,7 +36,7 @@ VERBOSE=0
 KERVER=$(make kernelversion)
 
 # Specify Final Zip Name
-ZIPNAME=Meteoric
+ZIPNAME=CyberEdge
 
 # Zip version
 VERSION=$(cat $KERNEL_DIR/Version)
@@ -109,8 +109,8 @@ function exports() {
     export SUBARCH=arm64
 
     # Export KBUILD HOST and USER
-    export KBUILD_BUILD_HOST=Neoteric
-    export KBUILD_BUILD_USER=HELLBOY017
+    export KBUILD_BUILD_HOST=CyberEdge
+    export KBUILD_BUILD_USER=termnh
 
     # Export PROCS and DISTRO
     export PROCS=$(nproc --all)
