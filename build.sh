@@ -36,7 +36,7 @@ VERBOSE=0
 KERVER=$(make kernelversion)
 
 # Specify Final Zip Name
-ZIPNAME=CyberEdge
+ZIPNAME=Nethunter
 
 # Zip version
 VERSION=$(cat $KERNEL_DIR/Version)
@@ -109,7 +109,7 @@ function exports() {
     export SUBARCH=arm64
 
     # Export KBUILD HOST and USER
-    export KBUILD_BUILD_HOST=CyberEdge
+    export KBUILD_BUILD_HOST=Nethunter
     export KBUILD_BUILD_USER=termnh
 
     # Export PROCS and DISTRO
